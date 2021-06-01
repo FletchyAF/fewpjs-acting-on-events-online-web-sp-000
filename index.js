@@ -3,7 +3,7 @@ let dodger = document.getElementById("dodger");
 
 dodger.style.backgroundColor = "#239234";
 
-document.addEventListener("Keydown", function(e) {
+document.addEventListener("keydown", function(e) {
   if (e.key == "ArrowLeft" ) {
     let leftNumbers = dodger.style.left.replace("px", "");
     let left = parseInt(leftNumbers, 10);
